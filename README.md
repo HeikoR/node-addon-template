@@ -1,8 +1,3 @@
-<div style="float:right; clear: both;">
-	<div>Last updated: 25 Apr 2013</div>
-	<div style="">Author(s): H.W.Risser</div>
-</div>
-<br>
 
 # Steps to create a new Module
 
@@ -93,7 +88,7 @@
 
 - Further development changes
 	- you can run the following commands from root folder during futher development/changes  
-	  (_read up more on each of these commands in you don't know how to use them_)
+	  (read up more on each of these commands in you don't know how to use them)
 
 			node-gyp build
 			node-gyp clean
@@ -101,10 +96,22 @@
 
 			npm install
 			npm test
-			npm start		(this would require a start script .. )
+			npm start
 			... 
 
 	- alternatively, once you do `node-gyp build` or `node-gyp rebuild`, you can open the visual studio files and debug, code etc from there ..
+
+# To install
+
+		git clone https://github.com/HeikoR/node-addon-template.git pqueue-min
+		cd pqueue-min
+		npm install
+		npm test
+		npm start
+
+Or you can use npm:
+
+		npm install git+https://github.com/HeikoR/node-addon-template.git
 
 
 

@@ -7,10 +7,11 @@
     "test": "test"
   },
   "scripts": {
+    "start": "node start.js",
     "test": ".\\node_modules\\.bin\\mocha --reporter dot --check-leaks",
     "install": "node-gyp rebuild"
   },
-  "repository": "",
+  "repository": "git+https://github.com/HeikoR/node-addon-template.git",
   "keywords": [
     "node",
     "addon",
