@@ -1,0 +1,29 @@
+{
+  "name": "pqueue-min",
+  "version": "0.1.0",
+  "description": "Simple Addon Module Implementation",
+  "main": "./lib/pqueue.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": ".\\node_modules\\.bin\\mocha --reporter dot --check-leaks",
+    "install": "node-gyp rebuild"
+  },
+  "repository": "",
+  "keywords": [
+    "node",
+    "addon",
+    "pqueue",
+    "C++"
+  ],
+  "author": "H.W.Risser",
+  "license": "BSD",
+  "gypfile": true,
+  "private": true,
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "mocha": "~1.9.0",
+    "should": "~1.2.2"
+  }
+}
